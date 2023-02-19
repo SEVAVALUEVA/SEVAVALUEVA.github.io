@@ -1,0 +1,42 @@
+.post{
+    width: 50% ;
+    background-color: rgb(83, 164, 40);
+    margin:auto;
+}
+img{
+    width: 100%;
+}
+header{
+ background-color: aqua;
+position: sticky;
+top: 0;
+margin-bottom: 5px;
+}
+footer{
+background-color: black;
+color: white;
+}
+header ul,footer ul{
+display:flex;
+list-style: none;
+margin:0 0 0 15;
+}
+li{
+display: flex;
+margin: 0 10px;
+}
+
+li img{
+ width: 50px ;
+margin:0;
+padding:0;
+}
+li p{
+margin-top: 10%;
+padding: 0;
+}
+a img{
+width: 300px;
+
+border-radius: 25%;
+}
